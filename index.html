@@ -19,7 +19,7 @@
     <title>Главная|WebStudio</title>
   </head>
   <body>
-    <div class="container">
+    <section class="container header-section-container">
       <header class="header">
         <!--Шапка сайта-->
         <div class="header-container">
@@ -46,153 +46,155 @@
           </address>
         </div>
       </header>
-      <main>
-        <div class="banner">
-          <!--Обертка для баннера-->
-          <section>
-            <h1 class="h1-studio">Эффективные решения для вашего бизнеса</h1>
-            <button type="submit" class="button">
-              <span>Заказать услугу</span>
-            </button>
-          </section>
-        </div>
-        <section class="our-positive">
-          <!--Наши преимущества|Секция под баннером-->
-          <h2 class="h2-studio">Наши преимущества</h2>
-          <!--Заголовок будет скрыт CSS, нужен для индексации и семанитки-->
-          <ul class="our-skills">
-            <li>
-              <h3>Внимание к деталям</h3>
-              <p>
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
-              </p>
-            </li>
-            <li>
-              <h3>Пунктуальность</h3>
-              <p>
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
-              </p>
-            </li>
-            <li>
-              <h3>Планирование</h3>
-              <p>
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
-              </p>
-            </li>
-            <li>
-              <h3>Современные технологии</h3>
-              <p>
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
-              </p>
-            </li>
-          </ul>
+    </section>
+    <main>
+      <div>
+        <!--Обертка для баннера-->
+        <section class="banner container">
+          <h1 class="h1-studio">
+            Эффективные решения<br />
+            для вашего бизнеса
+          </h1>
+          <button type="submit" class="button">
+            <span>Заказать услугу</span>
+          </button>
         </section>
-        <section class="we-do-section">
-          <!--Секция "Чем мы занимаемся"-->
-          <h2 class="we-do">Чем мы занимаемся</h2>
-          <ul class="our-work">
-            <li>
-              <a href="">
-                <img
-                  src="./images/img_1.jpg"
-                  alt="Пишем грамотную разметку страницы"
-                  width="370"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img
-                  src="./images/img_2.jpg"
-                  alt="Предлагаем разичные варианты дизайна старниц"
-                  width="370"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img
-                  src="./images/img_3.jpg"
-                  alt="Подбираем наилучшее сочетание цветов в Вашем дизайне"
-                  width="370"
-                />
-              </a>
-            </li>
-          </ul>
-        </section>
-        <section class="team-section">
-          <!--Наша команда-->
-          <h2 class="our-team">Наша команда</h2>
-          <ul class="team-list">
-            <li>
+      </div>
+      <section class="our-positive container">
+        <!--Наши преимущества|Секция под баннером-->
+        <h2 class="h2-studio">Наши преимущества</h2>
+        <!--Заголовок будет скрыт CSS, нужен для индексации и семанитки-->
+        <ul class="our-skills">
+          <li>
+            <h3>Внимание к деталям</h3>
+            <p>
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li>
+            <h3>Пунктуальность</h3>
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li>
+            <h3>Планирование</h3>
+            <p>
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li>
+            <h3>Современные технологии</h3>
+            <p>
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="we-do-section container">
+        <!--Секция "Чем мы занимаемся"-->
+        <h2 class="we-do">Чем мы занимаемся</h2>
+        <ul class="our-work">
+          <li>
+            <a href="">
               <img
-                src="./images/img_4.jpg"
-                alt="Игорь Демьяненко, дизайнер"
-                width="270"
+                src="./images/img_1.jpg"
+                alt="Пишем грамотную разметку страницы"
+                width="370"
               />
-              <h3>Игорь Демьяненко</h3>
-              <p lang="EN">Product Designer</p>
-            </li>
-            <li>
+            </a>
+          </li>
+          <li>
+            <a href="">
               <img
-                src="./images/img_5.jpg"
-                alt="Ольга Репина, разработчик"
-                width="270"
+                src="./images/img_2.jpg"
+                alt="Предлагаем разичные варианты дизайна старниц"
+                width="370"
               />
-              <h3>Ольга Репина</h3>
-              <p lang="EN">Frontend Developer</p>
-            </li>
-            <li>
+            </a>
+          </li>
+          <li>
+            <a href="">
               <img
-                src="./images/img_6.jpg"
-                alt="Николай Тарасов, маркетолог"
-                width="270"
+                src="./images/img_3.jpg"
+                alt="Подбираем наилучшее сочетание цветов в Вашем дизайне"
+                width="370"
               />
-              <h3>Николай Тарасов</h3>
-              <p lang="EN">Marketing</p>
-            </li>
-            <li>
-              <img
-                src="./images/img_7.jpg"
-                alt="Михаил Ермаков, дизайнер пользовательского интерфейса"
-                width="270"
-              />
-              <h3>Михаил Ермаков</h3>
-              <p lang="EN">UI Designer</p>
-            </li>
-          </ul>
-        </section>
-      </main>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="team-section container">
+        <!--Наша команда-->
+        <h2 class="our-team">Наша команда</h2>
+        <ul class="team-list">
+          <li>
+            <img
+              src="./images/img_4.jpg"
+              alt="Игорь Демьяненко, дизайнер"
+              width="270"
+            />
+            <h3>Игорь Демьяненко</h3>
+            <p lang="EN">Product Designer</p>
+          </li>
+          <li>
+            <img
+              src="./images/img_5.jpg"
+              alt="Ольга Репина, разработчик"
+              width="270"
+            />
+            <h3>Ольга Репина</h3>
+            <p lang="EN">Frontend Developer</p>
+          </li>
+          <li>
+            <img
+              src="./images/img_6.jpg"
+              alt="Николай Тарасов, маркетолог"
+              width="270"
+            />
+            <h3>Николай Тарасов</h3>
+            <p lang="EN">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/img_7.jpg"
+              alt="Михаил Ермаков, дизайнер пользовательского интерфейса"
+              width="270"
+            />
+            <h3>Михаил Ермаков</h3>
+            <p lang="EN">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <section class="footer-section container">
       <footer id="footer" class="footer">
-        <div class="container">
-          <!--ID для ссылки-якоря-->
-          <div class="logo-2">
-            <a href="./index.html"
-              ><span class="logo-web">Web</span
-              ><span class="logo-studio-2">Studio</span></a
+        <!-- <div class="container"> -->
+        <!--ID для ссылки-якоря-->
+        <div class="logo-2">
+          <a href="./index.html"
+            ><span class="logo-web">Web</span
+            ><span class="logo-studio-2">Studio</span></a
+          >
+        </div>
+        <address>
+          <div class="adress-bottom">
+            <a href="https://goo.gl/maps/Ce2jviXbWAB63QqT9" class="adress-visit"
+              >г. Киев, пр-т Леси Украинки, 26 </a
+            ><br />
+            <a href="mailto:info@example.com" class="down-contacts"
+              >info@devstudio.com</a
+            ><br />
+            <a href="tel:+380961111111" class="down-contacts"
+              >+38 096 111 11 11</a
             >
           </div>
-          <address>
-            <div class="adress-bottom">
-              <a
-                href="https://goo.gl/maps/Ce2jviXbWAB63QqT9"
-                class="adress-visit"
-                >г. Киев, пр-т Леси Украинки, 26 </a
-              ><br />
-              <a href="mailto:info@example.com" class="down-contacts"
-                >info@devstudio.com</a
-              ><br />
-              <a href="tel:+380961111111" class="down-contacts"
-                >+38 096 111 11 11</a
-              >
-            </div>
-          </address>
-        </div>
+        </address>
       </footer>
-    </div>
+    </section>
   </body>
 </html>
