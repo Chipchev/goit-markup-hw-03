@@ -48,7 +48,6 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
 }
 .flex-nav {
   display: flex;
@@ -61,6 +60,7 @@ ul {
   width: 294px;
   justify-content: space-between;
   align-items: center;
+  padding: 32px 0 32px 0;
 }
 .logo-web {
   color: var(--hover-color);
@@ -174,11 +174,6 @@ ul {
 }
 .our-positive {
   padding-top: 94px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .h2-studio {
   display: none;
@@ -206,8 +201,9 @@ ul {
 }
 
 .we-do {
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  margin: 0;
   font-size: 36px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -222,13 +218,15 @@ ul {
 
 .team-list {
   display: flex;
+  padding-bottom: 94px;
 }
 .team-list li:not(:last-child) {
   margin-right: 30px;
 }
 .our-team {
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  margin: 0;
   font-size: 36px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -260,7 +258,6 @@ ul {
   width: 100%;
   background: var(--bg-color);
   padding: 60px 0;
-  margin-top: 94px;
   padding-left: 15px;
 }
 
@@ -304,14 +301,16 @@ ul {
 }
 /*Начало стилей "Портфолио"*/
 .header-container-portfolio {
-  margin-bottom: 94px;
   border-bottom: 1px solid #ececec;
   width: 100%;
+}
+.portfolio-main-section {
+  padding-top: 94px;
 }
 .category-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .category-list li:not(:last-child) {
   margin-right: 8px;
@@ -359,6 +358,7 @@ ul {
 .examples-list {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 94px;
 }
 .examples-list li {
   width: calc((100% - 60px) / 3);
