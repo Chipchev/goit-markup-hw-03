@@ -199,11 +199,11 @@ ul {
   letter-spacing: 0.03em;
   color: var(--p-color);
 }
-
-.we-do {
+.we-do-section {
   padding-top: 94px;
-  padding-bottom: 50px;
-  margin: 0;
+}
+.we-do {
+  margin-bottom: 50px;
   font-size: 36px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -215,18 +215,17 @@ ul {
 .our-work li:not(:last-child) {
   margin-right: 30px;
 }
-
+.team-section {
+  padding: 94px 0 94px 0;
+}
 .team-list {
   display: flex;
-  padding-bottom: 94px;
 }
 .team-list li:not(:last-child) {
   margin-right: 30px;
 }
 .our-team {
-  padding-top: 94px;
-  padding-bottom: 50px;
-  margin: 0;
+  margin-bottom: 50px;
   font-size: 36px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -305,7 +304,7 @@ ul {
   width: 100%;
 }
 .portfolio-main-section {
-  padding-top: 94px;
+  padding: 94px 0 94px 0;
 }
 .category-list {
   display: flex;
@@ -358,7 +357,6 @@ ul {
 .examples-list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 .examples-list li {
   width: calc((100% - 60px) / 3);
