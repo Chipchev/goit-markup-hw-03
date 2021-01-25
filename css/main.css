@@ -200,7 +200,7 @@ ul {
   color: var(--p-color);
 }
 .we-do-section {
-  padding-top: 94px;
+  padding: 94px 0 94px 0;
 }
 .we-do {
   margin-bottom: 50px;
