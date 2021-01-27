@@ -27,7 +27,17 @@ ul {
   margin: 0;
   padding: 0;
 }
+button {
+  cursor: pointer;
+}
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
 /*Start of Styles*/
 .container {
   margin-left: auto;
@@ -175,9 +185,7 @@ ul {
 .our-positive {
   padding-top: 94px;
 }
-.h2-studio {
-  display: none;
-}
+
 .our-skills {
   display: flex;
 }
